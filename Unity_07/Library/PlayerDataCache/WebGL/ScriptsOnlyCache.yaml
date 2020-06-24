@@ -3,6 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp-Editor.dll:
     - ReadmeEditor
     Assembly-CSharp.dll:
+    - CameraController
+    - PeopleFarAttack
+    - PeopleRun
+    - PeopleTrack
     - Readme
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
@@ -30,17 +34,12 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector3
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
-    - UnityEngine.Rendering.Volume
-    - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.Universal.Runtime.dll:
-    - UnityEngine.Rendering.Universal.Bloom
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
-    - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
-    - UnityEngine.Rendering.Universal.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -62,7 +61,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    "Assets/\u904A\u6232\u5834\u666F.unity":
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -81,11 +80,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -94,15 +101,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11342}
-    - Class: 114
       Script: {instanceID: 11398}
+    - Class: 114
+      Script: {instanceID: 11498}
     - Class: 114
       Script: {instanceID: 11502}
     - Class: 114
       Script: {instanceID: 11522}
-    - Class: 114
-      Script: {instanceID: 11556}
     - Class: 114
       Script: {instanceID: 11612}
     - Class: 114
@@ -122,6 +127,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12262}
     - Class: 114
+      Script: {instanceID: 12286}
+    - Class: 114
       Script: {instanceID: 12484}
     - Class: 114
       Script: {instanceID: 12676}
@@ -131,8 +138,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12772}
     - Class: 114
       Script: {instanceID: 12864}
-    - Class: 114
-      Script: {instanceID: 13090}
     - Class: 114
       Script: {instanceID: 13116}
     - Class: 114
@@ -152,19 +157,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13636}
     - Class: 114
-      Script: {instanceID: 13674}
-    - Class: 114
       Script: {instanceID: 13928}
     - Class: 114
       Script: {instanceID: 13944}
     - Class: 114
       Script: {instanceID: 13992}
     - Class: 114
+      Script: {instanceID: 14048}
+    - Class: 114
       Script: {instanceID: 14212}
     - Class: 114
       Script: {instanceID: 14388}
     - Class: 114
       Script: {instanceID: 14432}
+    - Class: 114
+      Script: {instanceID: 14466}
     - Class: 114
       Script: {instanceID: 14624}
     - Class: 114
@@ -174,28 +181,32 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14676}
     - Class: 114
-      Script: {instanceID: 14770}
-    - Class: 114
       Script: {instanceID: 14786}
     - Class: 114
       Script: {instanceID: 14792}
-    - Class: 114
-      Script: {instanceID: 17528}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 205
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
-    - Class: 215
-      Script: {instanceID: 0}
-    - Class: 220
+    - Class: 221
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -203,7 +214,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    - Class: 258
+    - Class: 238
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1042,5 +1053,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 20
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - "Assets/\u904A\u6232\u5834\u666F.unity"
   playerPath: C:/Jeff/Unity_LS07/Unity_07/web
